@@ -31,14 +31,14 @@
     pontos: 0
   }
 
-  var opcoes = {
+  const opcoes = {
     divOpcoesJogo: document.querySelector('.opcoes-jogo'),
     usuarioX: document.getElementById('usuario-x'),
     usuarioO: document.getElementById('usuario-o'),
     btnJogar: document.getElementById('btn-jogar')
   };
 
-  var painel = {
+  const painel = {
     painelOpcoesJogo: document.querySelector('.painel-opcoes'),
     nomeX: document.getElementById('painel-usuario-x-nome'),
     nomeO: document.getElementById('painel-usuario-o-nome'),
